@@ -1,0 +1,47 @@
+.surhasContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.surhasContainer .surah{
+    min-height: 100px;
+    min-width: 150px;
+    box-shadow:0 0 5px black;
+    margin:5px;
+    background-color: aquamarine;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    color: black;
+    font-size: 17px;
+
+}
+.surhasContainer .surah:hover{
+    transform: scale(1.05);
+}
+.quran h3 {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(1, 1, 16, 0.778);
+}
+body{
+    background-color: rgb(3, 86, 58);
+    height: 100%;
+}
+.surah-popup{
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: beige;
+    z-index: 2;
+}
+.ayat{
+  
+}
